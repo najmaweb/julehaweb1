@@ -1,0 +1,24 @@
+@font-face {
+    font-family: artifika;
+    src: url('assets/fonts/Artifika-Regular.ttf');
+}
+@font-face{
+    font-family: tiza;
+    src:url('assets/fonts/tiza.ttf');
+}
+.header .navbar-default .navbar-nav > li > a {
+    color: #687074;
+    font-size: 25px;
+    font-family: tiza;
+    font-weight: 400;
+    padding: 9px 20px;
+    text-transform: uppercase;
+}
+.header .dropdown-menu li a {
+    color: #687074;
+    font-size: 13px;
+    font-family: tiza;
+    font-weight: 400;
+    padding: 6px 15px;
+    border-bottom: solid 1px #eee;
+}
