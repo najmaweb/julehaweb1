@@ -22,3 +22,12 @@
     padding: 6px 15px;
     border-bottom: solid 1px #eee;
 }
+#logo_red{
+    font-family: artifika;
+    color: red;
+    font-size: 30px;
+}#logo_blue{
+    font-family: artifika;
+    color: blue;
+    font-size: 30px;
+}
