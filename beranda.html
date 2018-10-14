@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="assets/css/pages/page_coming_soon.css">    
     <!-- CSS Theme -->    
     <link rel="stylesheet" href="assets/css/themes/default.css" id="style_color">
-    <link rel="stylesheet" href="assets/css/themes/headers/default.css" id="style_color-header-1">    
+    <link rel="stylesheet" href="assets/css/themes/headers/default.css" id="style_color-header-1"> <link rel="stylesheet" href="assets/css/juleha-front.css" />
 </head> 
 
 <body class="coming-soon-page">
@@ -51,14 +51,11 @@
     <!-- Coming Soon Content -->
     <div class="row">
         <div class="col-md-12 coming-soon">
-            <h1>JULEHA</h1>
+            <span id="julehatitle">JULEHA</span>
             <p>Halaman Resmi Juru Sembelih Halal.</p><br>
             <form>
                 <div class="input-group col-md-4 col-md-offset-4">
-                    <input type="text" class="form-control" placeholder="Your Email">
-                    <span class="input-group-btn">
-                        <button class="btn-u" type="button">Subscribe</button>
-                    </span>                        
+                        <img src="assets/img/juleha/27771471_1554458097925524_6581865608197963776_n.jpg" alt="" width="150px">                   
                 </div><!-- /input-group -->                    
             </form>
         </div>
@@ -68,11 +65,11 @@
     <div class="coming-soon-plugin">
         <div id="defaultCounxtdown">
             <a href="page_gallery.html">
-                <img src="assets/img/juleha/knife2.png" id="pisau" width="100px" height="100px" alt="Belanja Alat Sembelih" />
+                <img class="getar" src="assets/img/juleha/kitchen-knives-1135268_960_720.png" id="pisau" width="100px" height="100px" alt="Belanja Alat Sembelih" />
             </a>
             
             <a href="cattle_gallery.html">
-                <img src="assets/img/juleha/sapi3.png" id="sapi" width="100px" height="100px" alt="Belanja Binatang Sembelih" />
+                <img class="getar" src="assets/img/juleha/sapi.png" id="sapi" width="100px" height="100px" alt="Belanja Binatang Sembelih" />
             </a>
         </div>
     </div>
@@ -91,11 +88,13 @@
             </ul>            
         </div>
         <div class="col-md-6">
-            <div class="coming-soon-copyright">
-                <p><a href="page_gallery.html">Halaman Belanja</a></p>                
+                <div class="coming-soon-copyright">
+                    <p><a href="page_gallery.html">
+                        <img class="getar" src="assets/img/juleha/goat.png" alt="" width="50px">
+                    </a></p>                
+                </div>
             </div>
         </div>
-    </div>
 </div><!--/container-->
 <!--=== End Content Part ===-->
 
@@ -135,16 +134,16 @@
     jQuery(document).ready(function() {
         App.init();
         $("#pisau").on("hover",function(){
-            $(this).attr("src","assets/img/juleha/knife2-red.png");
+            $(this).attr("src","assets/img/juleha/kitchen-knives-1135268_960_720.png");
         })
         $("#pisau").on("mouseout",function(){
-            $(this).attr("src","assets/img/juleha/knife2.png");
+            $(this).attr("src","assets/img/juleha/kitchen-knives-1135268_960_720.png");
         })
         $("#sapi").on("hover",function(){
-            $(this).attr("src","assets/img/juleha/sapi3-yellow.png");
+            $(this).attr("src","assets/img/juleha/sapi-melet-seru.png");
         })
         $("#sapi").on("mouseout",function(){
-            $(this).attr("src","assets/img/juleha/sapi3.png");
+            $(this).attr("src","assets/img/juleha/sapi.png");
         })
     });
 </script>
